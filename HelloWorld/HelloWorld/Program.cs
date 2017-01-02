@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
 namespace HelloWorld
 {
@@ -10,7 +10,12 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+
+            var name = "JOHN";
+
+            Console.WriteLine("Hello World! This is {name}");
+
+            
         }
     }
 }
